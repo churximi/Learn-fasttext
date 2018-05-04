@@ -12,8 +12,8 @@ import fasttext
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
 # 训练模型
-train_file = "/Users/simon/Downloads/news_fasttext_train.txt"
-test_file = "/Users/simon/Downloads/news_fasttext_test.txt"
+train_file = "/Users/simon/Mycodes/Learn-TensorFlow/data/news_fasttext_train.txt"
+test_file = "/Users/simon/Mycodes/Learn-TensorFlow/data/news_fasttext_test.txt"
 save_model_file = "models/model"
 # classifier = fasttext.supervised(train_file, save_model_file, label_prefix="__label__")
 
